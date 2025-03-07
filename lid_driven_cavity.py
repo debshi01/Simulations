@@ -62,7 +62,7 @@ Denote by:
 u   : The velocity field (from the previous iteration)
 u*  : The velocity field after a tentative momentum step
 u** : The velocity field after incompressibility correction (=after projection)
-p*  : The pressure field at the next time step
+p*  : The pressure field at the next time step  
 Δt  : The time step size
 
 v   : The test function to the function space of u
@@ -100,10 +100,10 @@ the time step length with care.
 """
 
 import fenics as fe
-from tqdm import tqdm # optional
+from tqdm import tqdm
 import matplotlib.pyplot as plt
 
-N_POINTS_P_AXIS = 41
+N_POINTS_P_AXIS = 101
 
 TIME_STEP_LENGTH = 0.01
 N_TIME_STEPS = 100

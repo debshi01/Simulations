@@ -2,3 +2,5 @@
 *.npy
 *.txt
 *.csv
+*.vtu
+*.pvd
